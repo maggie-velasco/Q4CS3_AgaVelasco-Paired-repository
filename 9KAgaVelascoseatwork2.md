@@ -102,10 +102,15 @@
 
 3. Please answer the following reflection questions (15 minutes)
 
-    a. Could you summarize the differences between the CSS position values (static, relative, absolute, fixed)? 
-
-    b. How does absolute positioning depend on its parent element?
-
-    c. How do you differentiate sticky from fixed (you can research on sticky)?
-
-    d. If you were designing a webpage for a school event, how might you use positioning to highlight important information? Please give concrete examples.
+ **   a. Could you summarize the differences between the CSS position values (static, relative, absolute, fixed)?**
+    Static - the default position value for elements and the elements appear in normal document flow
+    Relative - positioned relative to its normal position
+    Absolute - positioned relative to its nearest positioned ancestor
+    Fixed - positioned such that it stays fixed in the viewport
+    Fixed doesn't have position adjustments made when you scroll through the website, unlike the other three. Relative adjusts based on the set position, while absolute adjusts based on its nearest element. 
+  **  b. How does absolute positioning depend on its parent element?**
+    It's removed from document flow, and depends only on its nearest parent element.
+    **c. How do you differentiate sticky from fixed (you can research on sticky)?**
+    Fixed remains in viewport and that's it, but fixed acts relative and then switches to fixed after reaching scrolling threshold.
+  **  d. If you were designing a webpage for a school event, how might you use positioning to highlight important information? Please give concrete examples.**
+    We could put important details on top using sticky so that the user can still see it after scrolling.

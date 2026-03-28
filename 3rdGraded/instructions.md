@@ -5,7 +5,7 @@ After centuries of hostilities and skirmishes between the four nations living in
 
 It was agreed that one point, called division point, with coordinates established in the negotiations, would define the country division, in the following way. Two lines, both containing the division point, one in the North-South direction and one in the East-West direction, would be drawn on the map, dividing the land into four new countries. Starting from the Western-most, Northern-most quadrant, in clockwise direction, the new countries will be called Northwestern Nlogonia, Northeastern Nlogonia, Southeastern Nlogonia and Southwestern Nlogonia.
 
-![image](images/image.png)
+![image](images/image(5).png)
 
 The UN determined that a page in the Internet should exist so that the inhabitants could check in which of the countries their homes are. You have been hired to help  implementing the system.
 

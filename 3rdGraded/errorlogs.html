@@ -85,27 +85,43 @@
       </tr>
       <tr>
         <td> 5 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> point.styleleft = (x - x0 + 200 - 5) + 'px'; </td> 
+        <td> Wrong naming </td>
+        <td> point.style.left = (x - x0 + 200 - 5) + 'px'; </td>
       </tr>
       <tr>
         <td> 6 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> point.stylebottom = (y - y0 + 200 - 5) + 'px' </td> 
+        <td> Wrong naming</td>
+        <td> point.style.bottom = (y - y0 + 200 - 5) + 'px' </td>
       </tr>
       <tr>
         <td> 7 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> .point {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+} </td> 
+        <td> Needs position: absolute </td>
+        <td> .point {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    position: absolute;
+}</td>
       </tr>
       <tr>
         <td> 8 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> nav {
+    width: 100%;
+    background-color: #333;
+} </td> 
+        <td> Needs position: fixed </td>
+        <td> nav {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+}</td>
       </tr>
       <tr>
         <td> 9 </td> 
